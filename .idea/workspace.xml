@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6a69f33-75da-482b-a307-be9ad7e69db6" name="Changes" comment="Second check in : Renamed the package &amp; Added Assignment1.java file in that package">
-      <changelist_data name="ahar28" email="ahar2899@gmail.com" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a6a69f33-75da-482b-a307-be9ad7e69db6" name="Changes" comment="Third commit to check the push functionality">
       <change beforePath="$PROJECT_DIR$/src/main/java/dal/ca/csci5308/Assignment1/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/ca/csci5308/Assignment1/Assignment1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685218319682</updated>
-      <workItem from="1685218321607" duration="1231000" />
+      <workItem from="1685218321607" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="Initial check in">
       <created>1685218892458</created>
@@ -88,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685219329535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second check in : Renamed the package &amp; Added Assignment1.java file in that package">
+      <created>1685219582683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685219582683</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Third commit to check the push functionality">
+      <created>1685219615033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685219615033</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +110,7 @@
     <MESSAGE value="Initial check in" />
     <MESSAGE value="Second check in : Renamed the package" />
     <MESSAGE value="Second check in : Renamed the package &amp; Added Assignment1.java file in that package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second check in : Renamed the package &amp; Added Assignment1.java file in that package" />
+    <MESSAGE value="Third commit to check the push functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit to check the push functionality" />
   </component>
 </project>
