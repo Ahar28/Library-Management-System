@@ -19,5 +19,5 @@ Structure:
 DataObject: Contains the data objects representing books and users.
 DAO layer: Defines the interfaces for data access objects (DAO) used to interact with the database or data source.
 DAOImp: Implements the DAO interfaces and provides in-memory data storage for books and users.
-IDataBaseConnection database interfaces
-MockDataBaseConnection Implements the IDataBaseConnection interface
+IDataBaseConnection: database interfaces
+MockDataBaseConnection: Implements the IDataBaseConnection interface
