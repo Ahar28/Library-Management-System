@@ -3,6 +3,7 @@
 _The Library Management System is a Java application that provides functionality for managing books and users in a library. It allows users to perform various operations such as viewing books, adding books, updating books, deleting books, viewing users, adding users, updating users, and deleting users._
 
 **Features**
+
 The Library Management System includes the following features:
 
 1. View all books: Displays a list of all books available in the library.
