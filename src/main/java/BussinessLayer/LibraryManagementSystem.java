@@ -46,6 +46,7 @@ public class LibraryManagementSystem {
             System.out.println("8. Delete a user");
             System.out.println("9. Exit");
             System.out.print("Enter your choice: ");
+            int choice = scanner.nextInt();
 
             switch (choice) {
                 case 1:
