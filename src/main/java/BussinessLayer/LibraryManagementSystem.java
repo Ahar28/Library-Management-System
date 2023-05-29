@@ -35,7 +35,9 @@ public class LibraryManagementSystem {
     public void CLI() {
 
         while (!exit) {
+            System.out.println("============================");
             System.out.println("Library Management System");
+            System.out.println("============================");
             System.out.println("1. View all books");
             System.out.println("2. Add a book");
             System.out.println("3. Update a book");
@@ -44,7 +46,10 @@ public class LibraryManagementSystem {
             System.out.println("6. Add a user");
             System.out.println("7. Update a user");
             System.out.println("8. Delete a user");
-            System.out.println("9. Exit");
+            System.out.println("9. Find a user by FirstName");
+            System.out.println("10.Find a user by LastName");
+            System.out.println("11.Find a user by Email");
+            System.out.println("12. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
 
@@ -74,6 +79,21 @@ public class LibraryManagementSystem {
                     deleteUser();
                     break;
                 case 9:
+                    FindUserByFirstName();
+                    break;
+                case 10:
+                    FindUserByLastName();
+                    break;
+                case 11:
+                    FindUserByEmail();
+                    break;
+                case 12:
+                    FindBookByTitle();
+                    break;
+                case 13:
+                    FindBookbyAuthor();
+                    break;
+                case 14:
                     exit = true;
                     break;
                 default:
@@ -87,6 +107,112 @@ public class LibraryManagementSystem {
         scanner.close();
         System.out.println("Library Management System has been closed.");
 
+    }
+
+    private void FindBookByTitle() {
+        List<Book> books = bookDAO.getAllBooks();
+        boolean foundbookTitle = false;
+
+        System.out.println("Enter Title to find the book:");
+        String Title = scanner.nextLine();
+
+        for (Book book : books) {
+            if (book.getTitle().equalsIgnoreCase(Title)) {
+                System.out.println("Book found:");
+                System.out.println( book.getTitle()+ "by" + book.getAuthor() );
+                foundbookTitle = true;
+            }
+        }
+
+        if (!foundbookTitle) {
+            System.out.println("No Book found with the title: " + foundbookTitle);
+        }
+
+    }
+
+    private void FindBookbyAuthor() {
+        List<Book> books = bookDAO.getAllBooks();
+        boolean foundBookAuthor = false;
+
+        System.out.println("Enter Author to find the book:");
+        String Author = scanner.nextLine();
+
+        for (Book book : books) {
+            if (book.getAuthor().equalsIgnoreCase(Author)) {
+                System.out.println("Book found:");
+                System.out.println( book.getTitle()+ "by" + book.getAuthor() );
+                foundBookAuthor = true;
+            }
+        }
+
+        if (!foundBookAuthor) {
+            System.out.println("No Book found with the Author: " + foundBookAuthor);
+        }
+    }
+
+    private void FindUserByFirstName() {
+
+        List<User> users = userDAO.getAllUsers();
+        boolean foundfirstName = false;
+
+        System.out.println("Enter FirstName to find the user:");
+        String Firstname = scanner.nextLine();
+
+        for (User user : users) {
+            if (user.getFirstName().equalsIgnoreCase(Firstname)) {
+                System.out.println("User found:");
+                System.out.println(user.getUsername() + " (" + user.getFirstName() + " " + user.getLastName() + ")");
+                foundfirstName = true;
+            }
+        }
+
+        if (!foundfirstName) {
+            System.out.println("No user found with the firstname: " + Firstname);
+        }
+
+    }
+
+    private void FindUserByLastName() {
+        List<User> users = userDAO.getAllUsers();
+        boolean foundLastname = false;
+
+        System.out.println("Enter LastName to find the user:");
+        String LastName = scanner.nextLine();
+
+        for (User user : users) {
+            if (user.getLastName().equalsIgnoreCase(LastName)) {
+                System.out.println("User found:");
+                System.out.println(user.getUsername() + " (" + user.getFirstName() + " " + user.getLastName() + ")");
+                foundLastname = true;
+            }
+        }
+
+        if (!foundLastname) {
+            System.out.println("No user found with the foundLastname: " + LastName);
+        }
+    }
+
+    private void FindUserByEmail() {
+        {
+
+            List<User> users = userDAO.getAllUsers();
+            boolean foundemail = false;
+
+            System.out.println("Enter email to find the user:");
+            String email = scanner.nextLine();
+
+            for (User user : users) {
+                if (user.getEmail().equalsIgnoreCase(email)) {
+                    System.out.println("User found:");
+                    System.out.println(user.getUsername() + " (" + user.getFirstName() + " " + user.getLastName() + ")");
+                    foundemail = true;
+                }
+            }
+
+            if (!foundemail) {
+                System.out.println("No user found with the email: " + email);
+            }
+        }
     }
 
     public void viewAllBooks() {
@@ -111,7 +237,7 @@ public class LibraryManagementSystem {
         String isbn = scanner.nextLine();
         System.out.print("Enter the publication year: ");
         int year = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine();
         System.out.print("Enter the genre: ");
         String genre = scanner.nextLine();
 
@@ -137,7 +263,7 @@ public class LibraryManagementSystem {
             String isbn = scanner.nextLine();
             System.out.print("Enter the new publication year (current: " + book.getYear() + "): ");
             int year = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
             System.out.print("Enter the new genre (current: " + book.getGenre() + "): ");
             String genre = scanner.nextLine();
 
