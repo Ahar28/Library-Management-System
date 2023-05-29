@@ -6,17 +6,43 @@
   <component name="ChangeListManager">
     <list default="true" id="a6a69f33-75da-482b-a307-be9ad7e69db6" name="Changes" comment="Second check in : Renamed the package &amp; Added Assignment1.java file in that package">
       <changelist_data name="ahar28" email="ahar2899@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/.idea/statistic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BussinessLayer/LibraryManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAOImp/BookDAOImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAOImp/UserDAOImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBConnTest/IDataBaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBConnTest/MockDataBaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataObject/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataObject/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/SpecificExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DAOImp/BookDAOImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DAOImp/UserDAOImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DBConnTest/MockDataBaseConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataObject/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataObject/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lib/LibraryManagementSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/ca/csci5308/Assignment1/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/ca/csci5308/Assignment1/Assignment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dal/ca/csci5308/Assignment1/Assignment1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dal/ca/csci5308/Assignment1/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,14 +75,124 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ahar2/Downloads/mockito-all-2.0.2-beta.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.java in Assignment1">
+    <configuration name="LibraryManagementSystemTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lib" />
+      <option name="MAIN_CLASS_NAME" value="Lib.LibraryManagementSystemTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryManagementSystemTest.testCLI_ExitOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lib" />
+      <option name="MAIN_CLASS_NAME" value="Lib.LibraryManagementSystemTest" />
+      <option name="METHOD_NAME" value="testCLI_ExitOption" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryManagementSystemTest.test_ViewAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lib" />
+      <option name="MAIN_CLASS_NAME" value="Lib.LibraryManagementSystemTest" />
+      <option name="METHOD_NAME" value="test_ViewAllUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryManagementSystemTest.test_viewAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lib" />
+      <option name="MAIN_CLASS_NAME" value="Lib.LibraryManagementSystemTest" />
+      <option name="METHOD_NAME" value="test_viewAllBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryManagementSystemTest.testviewAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lib" />
+      <option name="MAIN_CLASS_NAME" value="Lib.LibraryManagementSystemTest" />
+      <option name="METHOD_NAME" value="testviewAllBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in Assignment1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in Assignment1" />
+        <item itemvalue="JUnit.LibraryManagementSystemTest.testCLI_ExitOption" />
+        <item itemvalue="JUnit.LibraryManagementSystemTest.test_ViewAllUsers" />
+        <item itemvalue="JUnit.LibraryManagementSystemTest.testviewAllBooks" />
+        <item itemvalue="JUnit.LibraryManagementSystemTest.test_viewAllBooks" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685218319682</updated>
       <workItem from="1685218321607" duration="1231000" />
+      <workItem from="1685280738068" duration="44667000" />
     </task>
     <task id="LOCAL-00001" summary="Initial check in">
       <created>1685218892458</created>
@@ -99,5 +236,36 @@
     <MESSAGE value="Second check in : Renamed the package" />
     <MESSAGE value="Second check in : Renamed the package &amp; Added Assignment1.java file in that package" />
     <option name="LAST_COMMIT_MESSAGE" value="Second check in : Renamed the package &amp; Added Assignment1.java file in that package" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$LibraryManagementSystemTest.ic" NAME="LibraryManagementSystemTest Coverage Results" MODIFIED="1685322544715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lib.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$Main.ic" NAME="Main Coverage Results" MODIFIED="1685316768234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$LibraryManagementSystemTest_testViewAllBooks.ic" NAME="LibraryManagementSystemTest.testViewAllBooks Coverage Results" MODIFIED="1685294972869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lib.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$LibraryManagementSystemTest_testAddBook.ic" NAME="LibraryManagementSystemTest.testAddBook Coverage Results" MODIFIED="1685307459299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lib.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$BookDAOImpTest.ic" NAME="BookDAOImpTest Coverage Results" MODIFIED="1685292006918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DAOImp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$DAOImp_in_Assignment1__1_.ic" NAME="DAOImp in Assignment1 (1) Coverage Results" MODIFIED="1685302538033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1685318117557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>MainTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$All_in_Assignment1.ic" NAME="All in Assignment1 Coverage Results" MODIFIED="1685316180213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$DAOImp_in_Assignment1.ic" NAME="DAOImp in Assignment1 Coverage Results" MODIFIED="1685292246630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DAOImp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$java_in_Assignment1.ic" NAME="java in Assignment1 Coverage Results" MODIFIED="1685327772331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ASDC_Mock_LIB$DBConnTest_in_Assignment1.ic" NAME="DBConnTest in Assignment1 Coverage Results" MODIFIED="1685291405039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DBConnTest.*</FILTER>
+    </SUITE>
   </component>
 </project>
